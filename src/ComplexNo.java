@@ -20,4 +20,9 @@ public class ComplexNo {
         int i = this.imgPart + c.imgPart;
         return new ComplexNo(r,i);
     }
+    public ComplexNo sub(ComplexNo c){
+        int r = this.realPart - c.realPart;
+        int i = this.imgPart - c.imgPart;
+        return new ComplexNo(r,i);
+    }
 }

@@ -7,5 +7,7 @@ public class Main {
 
         ComplexNo complexNo3 = complexNo1.add(complexNo2);
         complexNo3.print();
+        ComplexNo complexNo4 = complexNo1.sub(complexNo2);
+        complexNo4.print();
     }
 }
