@@ -14,4 +14,10 @@ public class ComplexNo {
     public void print(){
         System.out.println("( "+realPart+" + "+imgPart+" i )");
     }
+
+    public ComplexNo add(ComplexNo c){
+        int r = this.realPart + c.realPart;
+        int i = this.imgPart + c.imgPart;
+        return new ComplexNo(r,i);
+    }
 }
